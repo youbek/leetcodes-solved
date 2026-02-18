@@ -62,8 +62,6 @@ assert.equal(
   `❗️ ${path.basename(__filename)} - Input A expected to pass!`,
 );
 
-console.log(`✅ ${path.basename(__filename)}`);
-
 const inputB = toBinaryTree([-3]);
 assert.equal(
   maxPathSum(inputB),
@@ -77,3 +75,5 @@ assert.equal(
   4,
   `❗️ ${path.basename(__filename)} - Input C expected to pass!`,
 );
+
+console.log(`✅ ${path.basename(__filename)}`);
